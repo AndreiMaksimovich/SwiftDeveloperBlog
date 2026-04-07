@@ -21,6 +21,13 @@
 			remoteGlobalIDString = C7C96A8F2F7D41C500FB5725;
 			remoteInfo = "03 - Testable SwiftUI Views and ViewModels";
 		};
+		C78ABC802F879B8A00B7B600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F54BB82F701E6B00C02C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78ABC722F879B8900B7B600;
+			remoteInfo = "04 - HttpClient";
+		};
 		C7C96AA72F7D41C600FB5725 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C7F54BB82F701E6B00C02C6F /* Project object */;
@@ -39,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModels UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04 - HttpClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04 - HttpClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B863712F76A7F900B71A6B /* 02 - DynamicPublisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02 - DynamicPublisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C96A902F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C96AA62F7D41C600FB5725 /* 03 - Testable SwiftUI Views and ViewModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +56,64 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C78ABCAA2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "01 - Localization" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"04 - HttpClient/AppEnvironment.swift",
+				"04 - HttpClient/Assets.xcassets",
+				"04 - HttpClient/HttpClientApp.swift",
+				"04 - HttpClient/Initialization.swift",
+				"04 - HttpClient/Lib/DemoApi/DemoAPIClient.swift",
+				"04 - HttpClient/Lib/DemoApi/DemoTypes.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/Albums.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/DemoApiMockBaseHttpClient.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/Posts.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/ToDos.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.Types.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.Utils.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClientBase.swift",
+				"04 - HttpClient/Views/DemoView/DemoView.swift",
+				"04 - HttpClient/Views/DemoView/DemoView.Types.swift",
+				"04 - HttpClient/Views/DemoView/DemoViewModel.swift",
+				"04 - HttpClient/Views/DemoView/DemoViewModelMock.swift",
+				"04 - HttpClientTests/_4___HttpClientTests.swift",
+			);
+			target = C7F54BBF2F701E6B00C02C6F /* 01 - Localization */;
+		};
+		C78ABCAB2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "04 - HttpClient" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"04 - HttpClient/AppEnvironment.swift",
+				"04 - HttpClient/Assets.xcassets",
+				"04 - HttpClient/HttpClientApp.swift",
+				"04 - HttpClient/Initialization.swift",
+				"04 - HttpClient/Lib/DemoApi/DemoAPIClient.swift",
+				"04 - HttpClient/Lib/DemoApi/DemoTypes.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/Albums.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/DemoApiMockBaseHttpClient.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/Posts.swift",
+				"04 - HttpClient/Lib/DemoApi/MockData/ToDos.swift",
+				"04 - HttpClient/Lib/Dev/PreviewConatiner.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.Types.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClient.Utils.swift",
+				"04 - HttpClient/Lib/HttpClient/HttpClientBase.swift",
+				"04 - HttpClient/Lib/MockableURLProtocol/MockableURLProtocol.swift",
+				"04 - HttpClient/Views/DemoView/DemoView.swift",
+				"04 - HttpClient/Views/DemoView/DemoView.Types.swift",
+				"04 - HttpClient/Views/DemoView/DemoViewModel.swift",
+				"04 - HttpClient/Views/DemoView/DemoViewModelMock.swift",
+			);
+			target = C78ABC722F879B8900B7B600 /* 04 - HttpClient */;
+		};
+		C78ABCAC2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "04 - HttpClientTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"04 - HttpClientTests/_4___HttpClientTests.swift",
+			);
+			target = C78ABC7E2F879B8A00B7B600 /* 04 - HttpClientTests */;
+		};
 		C7B8646E2F7CFFB800B71A6B /* Exceptions for "01 - Localization" folder in "01 - Localization" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -77,6 +144,16 @@
 		C72F720D2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "03 - Testable SwiftUI Views and ViewModels UnitTests";
+			sourceTree = "<group>";
+		};
+		C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C78ABCAA2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "01 - Localization" target */,
+				C78ABCAB2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "04 - HttpClient" target */,
+				C78ABCAC2F879B9500B7B600 /* Exceptions for "04 - HttpClient" folder in "04 - HttpClientTests" target */,
+			);
+			path = "04 - HttpClient";
 			sourceTree = "<group>";
 		};
 		C7B863722F76A7F900B71A6B /* 02 - DynamicPublisher */ = {
@@ -115,6 +192,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C72F72092F7E86DF0003E3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78ABC702F879B8900B7B600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78ABC7C2F879B8A00B7B600 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,6 +277,7 @@
 				C7B864552F7CFFA600B71A6B /* 01 - Localization */,
 				C7B863722F76A7F900B71A6B /* 02 - DynamicPublisher */,
 				C7C96AB72F7D41CC00FB5725 /* 03 - Testable SwiftUI Views and ViewModels */,
+				C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */,
 				C731A46F2F702A7C00B93DAB /* Frameworks */,
 				C7F54BC12F701E6B00C02C6F /* Products */,
 				C7B864782F7CFFF000B71A6B /* Packages */,
@@ -201,6 +293,8 @@
 				C7C96A902F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels.app */,
 				C7C96AA62F7D41C600FB5725 /* 03 - Testable SwiftUI Views and ViewModelsUITests.xctest */,
 				C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */,
+				C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */,
+				C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +323,45 @@
 			);
 			productName = "03 - Testable SwiftUI Views and ViewModels UnitTests";
 			productReference = C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78ABC722F879B8900B7B600 /* 04 - HttpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78ABC972F879B8A00B7B600 /* Build configuration list for PBXNativeTarget "04 - HttpClient" */;
+			buildPhases = (
+				C78ABC6F2F879B8900B7B600 /* Sources */,
+				C78ABC702F879B8900B7B600 /* Frameworks */,
+				C78ABC712F879B8900B7B600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04 - HttpClient";
+			packageProductDependencies = (
+			);
+			productName = "04 - HttpClient";
+			productReference = C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78ABC7E2F879B8A00B7B600 /* 04 - HttpClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78ABC982F879B8A00B7B600 /* Build configuration list for PBXNativeTarget "04 - HttpClientTests" */;
+			buildPhases = (
+				C78ABC7B2F879B8A00B7B600 /* Sources */,
+				C78ABC7C2F879B8A00B7B600 /* Frameworks */,
+				C78ABC7D2F879B8A00B7B600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78ABC812F879B8A00B7B600 /* PBXTargetDependency */,
+			);
+			name = "04 - HttpClientTests";
+			packageProductDependencies = (
+			);
+			productName = "04 - HttpClientTests";
+			productReference = C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C7B863702F76A7F900B71A6B /* 02 - DynamicPublisher */ = {
@@ -313,6 +446,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */,
 				C7B864552F7CFFA600B71A6B /* 01 - Localization */,
 				C7B864782F7CFFF000B71A6B /* Packages */,
 			);
@@ -359,6 +493,13 @@
 						CreatedOnToolsVersion = 26.4;
 						TestTargetID = C7C96A8F2F7D41C500FB5725;
 					};
+					C78ABC722F879B8900B7B600 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					C78ABC7E2F879B8A00B7B600 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = C78ABC722F879B8900B7B600;
+					};
 					C7B863702F76A7F900B71A6B = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -401,12 +542,28 @@
 				C7C96A8F2F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels */,
 				C7C96AA52F7D41C600FB5725 /* 03 - Testable SwiftUI Views and ViewModelsUITests */,
 				C72F720B2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests */,
+				C78ABC722F879B8900B7B600 /* 04 - HttpClient */,
+				C78ABC7E2F879B8A00B7B600 /* 04 - HttpClientTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C72F720A2F7E86DF0003E3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78ABC712F879B8900B7B600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78ABC7D2F879B8A00B7B600 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,6 +615,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C78ABC6F2F879B8900B7B600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78ABC7B2F879B8A00B7B600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7B8636D2F76A7F900B71A6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,6 +671,11 @@
 			isa = PBXTargetDependency;
 			target = C7C96A8F2F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels */;
 			targetProxy = C72F72102F7E86DF0003E3B1 /* PBXContainerItemProxy */;
+		};
+		C78ABC812F879B8A00B7B600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78ABC722F879B8900B7B600 /* 04 - HttpClient */;
+			targetProxy = C78ABC802F879B8A00B7B600 /* PBXContainerItemProxy */;
 		};
 		C7C96AA82F7D41C600FB5725 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -563,6 +739,122 @@
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03 - Testable SwiftUI Views and ViewModels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/03 - Testable SwiftUI Views and ViewModels";
 				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		C78ABC912F879B8A00B7B600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-4---HttpClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78ABC922F879B8A00B7B600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-4---HttpClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78ABC932F879B8A00B7B600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-4---HttpClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04 - HttpClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/04 - HttpClient";
+			};
+			name = Debug;
+		};
+		C78ABC942F879B8A00B7B600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-4---HttpClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04 - HttpClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/04 - HttpClient";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1014,6 +1306,24 @@
 			buildConfigurations = (
 				C72F72132F7E86DF0003E3B1 /* Debug */,
 				C72F72142F7E86DF0003E3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78ABC972F879B8A00B7B600 /* Build configuration list for PBXNativeTarget "04 - HttpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78ABC912F879B8A00B7B600 /* Debug */,
+				C78ABC922F879B8A00B7B600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78ABC982F879B8A00B7B600 /* Build configuration list for PBXNativeTarget "04 - HttpClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78ABC932F879B8A00B7B600 /* Debug */,
+				C78ABC942F879B8A00B7B600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
