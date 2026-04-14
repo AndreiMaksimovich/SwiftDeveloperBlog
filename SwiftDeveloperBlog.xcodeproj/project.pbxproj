@@ -11,6 +11,7 @@
 		C731A4712F702A7C00B93DAB /* A in Frameworks */ = {isa = PBXBuildFile; productRef = C731A4702F702A7C00B93DAB /* A */; };
 		C731A4732F702A7F00B93DAB /* B in Frameworks */ = {isa = PBXBuildFile; productRef = C731A4722F702A7F00B93DAB /* B */; };
 		C7C96AB92F7D452C00FB5725 /* DynamicPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = C7C96AB82F7D452C00FB5725 /* DynamicPublisher */; };
+		C7F978F32F90E2AD007F7DC6 /* DynamicPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = C7F978F22F90E2AD007F7DC6 /* DynamicPublisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModels UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C733BFC92F8D2F1F00C139BF /* 05 - Background Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05 - Background Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04 - HttpClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04 - HttpClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B863712F76A7F900B71A6B /* 02 - DynamicPublisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02 - DynamicPublisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				"04 - HttpClient/Lib/DemoApi/MockData/DemoApiMockBaseHttpClient.swift",
 				"04 - HttpClient/Lib/DemoApi/MockData/Posts.swift",
 				"04 - HttpClient/Lib/DemoApi/MockData/ToDos.swift",
+				"04 - HttpClient/Lib/Dev/PreviewConatiner.swift",
 				"04 - HttpClient/Lib/HttpClient/HttpClient.swift",
 				"04 - HttpClient/Lib/HttpClient/HttpClient.Types.swift",
 				"04 - HttpClient/Lib/HttpClient/HttpClient.Utils.swift",
@@ -146,6 +149,11 @@
 			path = "03 - Testable SwiftUI Views and ViewModels UnitTests";
 			sourceTree = "<group>";
 		};
+		C733BFCA2F8D2F2000C139BF /* 05 - Background Location */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "05 - Background Location";
+			sourceTree = "<group>";
+		};
 		C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -195,6 +203,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C733BFC62F8D2F1F00C139BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F978F32F90E2AD007F7DC6 /* DynamicPublisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +294,7 @@
 				C7B863722F76A7F900B71A6B /* 02 - DynamicPublisher */,
 				C7C96AB72F7D41CC00FB5725 /* 03 - Testable SwiftUI Views and ViewModels */,
 				C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */,
+				C733BFCA2F8D2F2000C139BF /* 05 - Background Location */,
 				C731A46F2F702A7C00B93DAB /* Frameworks */,
 				C7F54BC12F701E6B00C02C6F /* Products */,
 				C7B864782F7CFFF000B71A6B /* Packages */,
@@ -295,6 +312,7 @@
 				C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */,
 				C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */,
 				C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */,
+				C733BFC92F8D2F1F00C139BF /* 05 - Background Location.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -324,6 +342,29 @@
 			productName = "03 - Testable SwiftUI Views and ViewModels UnitTests";
 			productReference = C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C733BFC82F8D2F1F00C139BF /* 05 - Background Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C733BFD52F8D2F2100C139BF /* Build configuration list for PBXNativeTarget "05 - Background Location" */;
+			buildPhases = (
+				C733BFC52F8D2F1F00C139BF /* Sources */,
+				C733BFC62F8D2F1F00C139BF /* Frameworks */,
+				C733BFC72F8D2F1F00C139BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C733BFCA2F8D2F2000C139BF /* 05 - Background Location */,
+			);
+			name = "05 - Background Location";
+			packageProductDependencies = (
+				C7F978F22F90E2AD007F7DC6 /* DynamicPublisher */,
+			);
+			productName = "05 - Background Location";
+			productReference = C733BFC92F8D2F1F00C139BF /* 05 - Background Location.app */;
+			productType = "com.apple.product-type.application";
 		};
 		C78ABC722F879B8900B7B600 /* 04 - HttpClient */ = {
 			isa = PBXNativeTarget;
@@ -493,6 +534,9 @@
 						CreatedOnToolsVersion = 26.4;
 						TestTargetID = C7C96A8F2F7D41C500FB5725;
 					};
+					C733BFC82F8D2F1F00C139BF = {
+						CreatedOnToolsVersion = 26.4;
+					};
 					C78ABC722F879B8900B7B600 = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -544,12 +588,20 @@
 				C72F720B2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests */,
 				C78ABC722F879B8900B7B600 /* 04 - HttpClient */,
 				C78ABC7E2F879B8A00B7B600 /* 04 - HttpClientTests */,
+				C733BFC82F8D2F1F00C139BF /* 05 - Background Location */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C72F720A2F7E86DF0003E3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C733BFC72F8D2F1F00C139BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -609,6 +661,13 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		C72F72082F7E86DF0003E3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C733BFC52F8D2F1F00C139BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -739,6 +798,87 @@
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03 - Testable SwiftUI Views and ViewModels.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/03 - Testable SwiftUI Views and ViewModels";
 				XROS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		C733BFD32F8D2F2100C139BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-5---Background-Location-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "TODO: ADD BG LOCATION USAGE EXPLANATION";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TODO: ADD LOCATION USAGE EXPLANATION";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.swiftblog.BackgroundLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C733BFD42F8D2F2100C139BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-5---Background-Location-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "TODO: ADD BG LOCATION USAGE EXPLANATION";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TODO: ADD LOCATION USAGE EXPLANATION";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.swiftblog.BackgroundLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1310,6 +1450,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C733BFD52F8D2F2100C139BF /* Build configuration list for PBXNativeTarget "05 - Background Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C733BFD32F8D2F2100C139BF /* Debug */,
+				C733BFD42F8D2F2100C139BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C78ABC972F879B8A00B7B600 /* Build configuration list for PBXNativeTarget "04 - HttpClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1398,6 +1547,10 @@
 			productName = B;
 		};
 		C7C96AB82F7D452C00FB5725 /* DynamicPublisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DynamicPublisher;
+		};
+		C7F978F22F90E2AD007F7DC6 /* DynamicPublisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DynamicPublisher;
 		};
