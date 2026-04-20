@@ -49,7 +49,7 @@ public class BackgroundLocationDataProvider: DynamicPublisher<CLLocation, Backgr
     }
     
     override public func stop() {
-        locationManager.startUpdatingLocation()
+        locationManager.stopUpdatingLocation()
         backgroundActivitySession?.invalidate()
     }
     
