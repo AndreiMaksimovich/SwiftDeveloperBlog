@@ -15,6 +15,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C706CBB52F964CBF00357A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F54BB82F701E6B00C02C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C706CBA52F964CBD00357A6A;
+			remoteInfo = "06 - SwiftData Migration";
+		};
+		C706CBBF2F964CBF00357A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F54BB82F701E6B00C02C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C706CBA52F964CBD00357A6A;
+			remoteInfo = "06 - SwiftData Migration";
+		};
 		C72F72102F7E86DF0003E3B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C7F54BB82F701E6B00C02C6F /* Project object */;
@@ -46,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C706CBA62F964CBD00357A6A /* 06 - SwiftData Migration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06 - SwiftData Migration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706CBB42F964CBF00357A6A /* 06 - SwiftData MigrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06 - SwiftData MigrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706CBBE2F964CBF00357A6A /* 06 - SwiftData MigrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06 - SwiftData MigrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72F720C2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModels UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C733BFC92F8D2F1F00C139BF /* 05 - Background Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05 - Background Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04 - HttpClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +161,21 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C706CBA72F964CBD00357A6A /* 06 - SwiftData Migration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "06 - SwiftData Migration";
+			sourceTree = "<group>";
+		};
+		C706CBB72F964CBF00357A6A /* 06 - SwiftData MigrationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "06 - SwiftData MigrationTests";
+			sourceTree = "<group>";
+		};
+		C706CBC12F964CBF00357A6A /* 06 - SwiftData MigrationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "06 - SwiftData MigrationUITests";
+			sourceTree = "<group>";
+		};
 		C72F720D2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "03 - Testable SwiftUI Views and ViewModels UnitTests";
@@ -199,6 +231,27 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C706CBA32F964CBD00357A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBB12F964CBF00357A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBBB2F964CBF00357A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C72F72092F7E86DF0003E3B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +323,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C706CBCF2F964CC700357A6A /* 06 - SwiftData Migration */ = {
+			isa = PBXGroup;
+			children = (
+				C706CBA72F964CBD00357A6A /* 06 - SwiftData Migration */,
+				C706CBB72F964CBF00357A6A /* 06 - SwiftData MigrationTests */,
+				C706CBC12F964CBF00357A6A /* 06 - SwiftData MigrationUITests */,
+			);
+			path = "06 - SwiftData Migration";
+			sourceTree = "<group>";
+		};
 		C731A46F2F702A7C00B93DAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +358,7 @@
 				C7C96AB72F7D41CC00FB5725 /* 03 - Testable SwiftUI Views and ViewModels */,
 				C78ABC9A2F879B8F00B7B600 /* 04 - HttpClient */,
 				C733BFCA2F8D2F2000C139BF /* 05 - Background Location */,
+				C706CBCF2F964CC700357A6A /* 06 - SwiftData Migration */,
 				C731A46F2F702A7C00B93DAB /* Frameworks */,
 				C7F54BC12F701E6B00C02C6F /* Products */,
 				C7B864782F7CFFF000B71A6B /* Packages */,
@@ -313,6 +377,9 @@
 				C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */,
 				C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */,
 				C733BFC92F8D2F1F00C139BF /* 05 - Background Location.app */,
+				C706CBA62F964CBD00357A6A /* 06 - SwiftData Migration.app */,
+				C706CBB42F964CBF00357A6A /* 06 - SwiftData MigrationTests.xctest */,
+				C706CBBE2F964CBF00357A6A /* 06 - SwiftData MigrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +387,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C706CBA52F964CBD00357A6A /* 06 - SwiftData Migration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706CBCC2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData Migration" */;
+			buildPhases = (
+				C706CBA22F964CBD00357A6A /* Sources */,
+				C706CBA32F964CBD00357A6A /* Frameworks */,
+				C706CBA42F964CBD00357A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C706CBA72F964CBD00357A6A /* 06 - SwiftData Migration */,
+			);
+			name = "06 - SwiftData Migration";
+			packageProductDependencies = (
+			);
+			productName = "06 - SwiftData Migration";
+			productReference = C706CBA62F964CBD00357A6A /* 06 - SwiftData Migration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C706CBB32F964CBF00357A6A /* 06 - SwiftData MigrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706CBCD2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData MigrationTests" */;
+			buildPhases = (
+				C706CBB02F964CBF00357A6A /* Sources */,
+				C706CBB12F964CBF00357A6A /* Frameworks */,
+				C706CBB22F964CBF00357A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C706CBB62F964CBF00357A6A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C706CBB72F964CBF00357A6A /* 06 - SwiftData MigrationTests */,
+			);
+			name = "06 - SwiftData MigrationTests";
+			packageProductDependencies = (
+			);
+			productName = "06 - SwiftData MigrationTests";
+			productReference = C706CBB42F964CBF00357A6A /* 06 - SwiftData MigrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C706CBBD2F964CBF00357A6A /* 06 - SwiftData MigrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706CBCE2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData MigrationUITests" */;
+			buildPhases = (
+				C706CBBA2F964CBF00357A6A /* Sources */,
+				C706CBBB2F964CBF00357A6A /* Frameworks */,
+				C706CBBC2F964CBF00357A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C706CBC02F964CBF00357A6A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C706CBC12F964CBF00357A6A /* 06 - SwiftData MigrationUITests */,
+			);
+			name = "06 - SwiftData MigrationUITests";
+			packageProductDependencies = (
+			);
+			productName = "06 - SwiftData MigrationUITests";
+			productReference = C706CBBE2F964CBF00357A6A /* 06 - SwiftData MigrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C72F720B2F7E86DF0003E3B1 /* 03 - Testable SwiftUI Views and ViewModels UnitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72F72122F7E86DF0003E3B1 /* Build configuration list for PBXNativeTarget "03 - Testable SwiftUI Views and ViewModels UnitTests" */;
@@ -530,6 +665,17 @@
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
+					C706CBA52F964CBD00357A6A = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					C706CBB32F964CBF00357A6A = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = C706CBA52F964CBD00357A6A;
+					};
+					C706CBBD2F964CBF00357A6A = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = C706CBA52F964CBD00357A6A;
+					};
 					C72F720B2F7E86DF0003E3B1 = {
 						CreatedOnToolsVersion = 26.4;
 						TestTargetID = C7C96A8F2F7D41C500FB5725;
@@ -589,11 +735,35 @@
 				C78ABC722F879B8900B7B600 /* 04 - HttpClient */,
 				C78ABC7E2F879B8A00B7B600 /* 04 - HttpClientTests */,
 				C733BFC82F8D2F1F00C139BF /* 05 - Background Location */,
+				C706CBA52F964CBD00357A6A /* 06 - SwiftData Migration */,
+				C706CBB32F964CBF00357A6A /* 06 - SwiftData MigrationTests */,
+				C706CBBD2F964CBF00357A6A /* 06 - SwiftData MigrationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C706CBA42F964CBD00357A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBB22F964CBF00357A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBBC2F964CBF00357A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C72F720A2F7E86DF0003E3B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,6 +830,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C706CBA22F964CBD00357A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBB02F964CBF00357A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706CBBA2F964CBF00357A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C72F72082F7E86DF0003E3B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,6 +917,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C706CBB62F964CBF00357A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C706CBA52F964CBD00357A6A /* 06 - SwiftData Migration */;
+			targetProxy = C706CBB52F964CBF00357A6A /* PBXContainerItemProxy */;
+		};
+		C706CBC02F964CBF00357A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C706CBA52F964CBD00357A6A /* 06 - SwiftData Migration */;
+			targetProxy = C706CBBF2F964CBF00357A6A /* PBXContainerItemProxy */;
+		};
 		C72F72112F7E86DF0003E3B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C7C96A8F2F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels */;
@@ -749,6 +950,185 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C706CBC62F964CBF00357A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-06-SwiftData-Migration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C706CBC72F964CBF00357A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-06-SwiftData-Migration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C706CBC82F964CBF00357A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-6---SwiftData-MigrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06 - SwiftData Migration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06 - SwiftData Migration";
+			};
+			name = Debug;
+		};
+		C706CBC92F964CBF00357A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-6---SwiftData-MigrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06 - SwiftData Migration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/06 - SwiftData Migration";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C706CBCA2F964CBF00357A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-6---SwiftData-MigrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06 - SwiftData Migration";
+			};
+			name = Debug;
+		};
+		C706CBCB2F964CBF00357A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74XK48A2YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.-6---SwiftData-MigrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "06 - SwiftData Migration";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		C72F72132F7E86DF0003E3B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1441,6 +1821,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C706CBCC2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData Migration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706CBC62F964CBF00357A6A /* Debug */,
+				C706CBC72F964CBF00357A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C706CBCD2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData MigrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706CBC82F964CBF00357A6A /* Debug */,
+				C706CBC92F964CBF00357A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C706CBCE2F964CBF00357A6A /* Build configuration list for PBXNativeTarget "06 - SwiftData MigrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706CBCA2F964CBF00357A6A /* Debug */,
+				C706CBCB2F964CBF00357A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C72F72122F7E86DF0003E3B1 /* Build configuration list for PBXNativeTarget "03 - Testable SwiftUI Views and ViewModels UnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
