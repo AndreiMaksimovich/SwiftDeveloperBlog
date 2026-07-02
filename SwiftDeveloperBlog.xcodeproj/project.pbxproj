@@ -11,6 +11,8 @@
 		C731A4712F702A7C00B93DAB /* A in Frameworks */ = {isa = PBXBuildFile; productRef = C731A4702F702A7C00B93DAB /* A */; };
 		C731A4732F702A7F00B93DAB /* B in Frameworks */ = {isa = PBXBuildFile; productRef = C731A4722F702A7F00B93DAB /* B */; };
 		C73F28312FE1A2D700CD5DAD /* FoundationModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73F28302FE1A2D700CD5DAD /* FoundationModels.framework */; };
+		C7AB5284300668BB004BF736 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C7AB5283300668BA004BF736 /* Assets */; };
+		C7BE95F42FF676B700A4FC8D /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = C7BE95F32FF676B700A4FC8D /* MapLibre */; };
 		C7C96AB92F7D452C00FB5725 /* DynamicPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = C7C96AB82F7D452C00FB5725 /* DynamicPublisher */; };
 		C7F978F32F90E2AD007F7DC6 /* DynamicPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = C7F978F22F90E2AD007F7DC6 /* DynamicPublisher */; };
 /* End PBXBuildFile section */
@@ -86,7 +88,9 @@
 		C73F28302FE1A2D700CD5DAD /* FoundationModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoundationModels.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk/System/Library/Frameworks/FoundationModels.framework; sourceTree = DEVELOPER_DIR; };
 		C78ABC732F879B8900B7B600 /* 04 - HttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04 - HttpClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78ABC7F2F879B8A00B7B600 /* 04 - HttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04 - HttpClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AB5283300668BA004BF736 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = "08 - OfflineMaps/Assets"; sourceTree = "<group>"; };
 		C7B863712F76A7F900B71A6B /* 02 - DynamicPublisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02 - DynamicPublisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BE95E22FF674FA00A4FC8D /* 08 - OfflineMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08 - OfflineMaps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C96A902F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C96AA62F7D41C600FB5725 /* 03 - Testable SwiftUI Views and ViewModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 - Testable SwiftUI Views and ViewModelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F54BC02F701E6B00C02C6F /* 01 - Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01 - Localization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,7 +235,1078 @@
 			);
 			target = C7F54BBF2F701E6B00C02C6F /* 01 - Localization */;
 		};
+		C7BE9E0E2FF79D6800A4FC8D /* Exceptions for "08 - OfflineMaps" folder in "08 - OfflineMaps" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/0-255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/256-511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/512-767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/768-1023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/1024-1279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/1280-1535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/1536-1791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/1792-2047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/2048-2303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/2304-2559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/2560-2815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/2816-3071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/3072-3327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/3328-3583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/3584-3839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/3840-4095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/4096-4351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/4352-4607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/4608-4863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/4864-5119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/5120-5375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/5376-5631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/5632-5887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/5888-6143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/6144-6399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/6400-6655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/6656-6911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/6912-7167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/7168-7423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/7424-7679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/7680-7935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/7936-8191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/8192-8447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/8448-8703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/8704-8959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/8960-9215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/9216-9471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/9472-9727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/9728-9983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/9984-10239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/10240-10495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/10496-10751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/10752-11007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/11008-11263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/11264-11519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/11520-11775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/11776-12031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/12032-12287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/12288-12543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/12544-12799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/12800-13055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/13056-13311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/13312-13567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/13568-13823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/13824-14079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/14080-14335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/14336-14591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/14592-14847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/14848-15103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/15104-15359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/15360-15615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/15616-15871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/15872-16127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/16128-16383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/16384-16639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/16640-16895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/16896-17151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/17152-17407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/17408-17663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/17664-17919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/17920-18175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/18176-18431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/18432-18687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/18688-18943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/18944-19199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/19200-19455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/19456-19711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/19712-19967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/19968-20223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/20224-20479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/20480-20735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/20736-20991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/20992-21247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/21248-21503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/21504-21759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/21760-22015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/22016-22271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/22272-22527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/22528-22783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/22784-23039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/23040-23295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/23296-23551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/23552-23807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/23808-24063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/24064-24319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/24320-24575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/24576-24831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/24832-25087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/25088-25343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/25344-25599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/25600-25855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/25856-26111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/26112-26367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/26368-26623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/26624-26879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/26880-27135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/27136-27391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/27392-27647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/27648-27903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/27904-28159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/28160-28415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/28416-28671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/28672-28927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/28928-29183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/29184-29439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/29440-29695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/29696-29951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/29952-30207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/30208-30463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/30464-30719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/30720-30975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/30976-31231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/31232-31487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/31488-31743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/31744-31999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/32000-32255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/32256-32511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/32512-32767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/32768-33023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/33024-33279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/33280-33535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/33536-33791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/33792-34047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/34048-34303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/34304-34559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/34560-34815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/34816-35071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/35072-35327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/35328-35583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/35584-35839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/35840-36095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/36096-36351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/36352-36607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/36608-36863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/36864-37119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/37120-37375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/37376-37631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/37632-37887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/37888-38143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/38144-38399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/38400-38655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/38656-38911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/38912-39167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/39168-39423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/39424-39679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/39680-39935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/39936-40191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/40192-40447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/40448-40703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/40704-40959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/40960-41215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/41216-41471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/41472-41727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/41728-41983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/41984-42239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/42240-42495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/42496-42751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/42752-43007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/43008-43263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/43264-43519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/43520-43775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/43776-44031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/44032-44287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/44288-44543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/44544-44799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/44800-45055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/45056-45311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/45312-45567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/45568-45823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/45824-46079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/46080-46335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/46336-46591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/46592-46847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/46848-47103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/47104-47359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/47360-47615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/47616-47871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/47872-48127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/48128-48383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/48384-48639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/48640-48895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/48896-49151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/49152-49407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/49408-49663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/49664-49919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/49920-50175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/50176-50431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/50432-50687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/50688-50943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/50944-51199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/51200-51455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/51456-51711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/51712-51967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/51968-52223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/52224-52479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/52480-52735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/52736-52991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/52992-53247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/53248-53503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/53504-53759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/53760-54015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/54016-54271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/54272-54527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/54528-54783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/54784-55039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/55040-55295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/55296-55551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/55552-55807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/55808-56063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/56064-56319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/56320-56575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/56576-56831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/56832-57087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/57088-57343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/57344-57599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/57600-57855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/57856-58111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/58112-58367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/58368-58623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/58624-58879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/58880-59135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/59136-59391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/59392-59647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/59648-59903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/59904-60159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/60160-60415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/60416-60671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/60672-60927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/60928-61183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/61184-61439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/61440-61695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/61696-61951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/61952-62207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/62208-62463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/62464-62719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/62720-62975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/62976-63231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/63232-63487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/63488-63743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/63744-63999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/64000-64255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/64256-64511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/64512-64767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/64768-65023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/65024-65279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Devanagari Regular v1/65280-65535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/0-255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/256-511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/512-767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/768-1023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/1024-1279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/1280-1535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/1536-1791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/1792-2047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/2048-2303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/2304-2559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/2560-2815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/2816-3071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/3072-3327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/3328-3583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/3584-3839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/3840-4095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/4096-4351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/4352-4607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/4608-4863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/4864-5119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/5120-5375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/5376-5631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/5632-5887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/5888-6143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/6144-6399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/6400-6655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/6656-6911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/6912-7167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/7168-7423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/7424-7679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/7680-7935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/7936-8191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/8192-8447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/8448-8703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/8704-8959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/8960-9215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/9216-9471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/9472-9727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/9728-9983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/9984-10239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/10240-10495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/10496-10751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/10752-11007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/11008-11263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/11264-11519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/11520-11775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/11776-12031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/12032-12287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/12288-12543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/12544-12799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/12800-13055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/13056-13311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/13312-13567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/13568-13823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/13824-14079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/14080-14335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/14336-14591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/14592-14847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/14848-15103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/15104-15359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/15360-15615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/15616-15871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/15872-16127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/16128-16383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/16384-16639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/16640-16895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/16896-17151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/17152-17407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/17408-17663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/17664-17919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/17920-18175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/18176-18431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/18432-18687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/18688-18943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/18944-19199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/19200-19455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/19456-19711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/19712-19967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/19968-20223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/20224-20479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/20480-20735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/20736-20991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/20992-21247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/21248-21503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/21504-21759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/21760-22015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/22016-22271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/22272-22527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/22528-22783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/22784-23039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/23040-23295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/23296-23551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/23552-23807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/23808-24063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/24064-24319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/24320-24575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/24576-24831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/24832-25087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/25088-25343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/25344-25599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/25600-25855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/25856-26111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/26112-26367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/26368-26623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/26624-26879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/26880-27135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/27136-27391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/27392-27647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/27648-27903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/27904-28159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/28160-28415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/28416-28671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/28672-28927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/28928-29183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/29184-29439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/29440-29695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/29696-29951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/29952-30207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/30208-30463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/30464-30719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/30720-30975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/30976-31231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/31232-31487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/31488-31743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/31744-31999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/32000-32255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/32256-32511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/32512-32767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/32768-33023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/33024-33279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/33280-33535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/33536-33791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/33792-34047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/34048-34303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/34304-34559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/34560-34815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/34816-35071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/35072-35327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/35328-35583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/35584-35839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/35840-36095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/36096-36351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/36352-36607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/36608-36863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/36864-37119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/37120-37375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/37376-37631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/37632-37887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/37888-38143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/38144-38399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/38400-38655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/38656-38911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/38912-39167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/39168-39423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/39424-39679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/39680-39935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/39936-40191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/40192-40447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/40448-40703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/40704-40959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/40960-41215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/41216-41471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/41472-41727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/41728-41983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/41984-42239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/42240-42495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/42496-42751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/42752-43007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/43008-43263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/43264-43519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/43520-43775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/43776-44031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/44032-44287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/44288-44543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/44544-44799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/44800-45055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/45056-45311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/45312-45567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/45568-45823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/45824-46079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/46080-46335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/46336-46591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/46592-46847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/46848-47103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/47104-47359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/47360-47615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/47616-47871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/47872-48127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/48128-48383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/48384-48639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/48640-48895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/48896-49151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/49152-49407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/49408-49663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/49664-49919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/49920-50175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/50176-50431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/50432-50687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/50688-50943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/50944-51199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/51200-51455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/51456-51711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/51712-51967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/51968-52223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/52224-52479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/52480-52735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/52736-52991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/52992-53247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/53248-53503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/53504-53759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/53760-54015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/54016-54271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/54272-54527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/54528-54783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/54784-55039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/55040-55295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/55296-55551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/55552-55807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/55808-56063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/56064-56319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/56320-56575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/56576-56831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/56832-57087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/57088-57343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/57344-57599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/57600-57855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/57856-58111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/58112-58367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/58368-58623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/58624-58879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/58880-59135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/59136-59391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/59392-59647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/59648-59903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/59904-60159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/60160-60415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/60416-60671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/60672-60927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/60928-61183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/61184-61439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/61440-61695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/61696-61951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/61952-62207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/62208-62463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/62464-62719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/62720-62975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/62976-63231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/63232-63487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/63488-63743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/63744-63999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/64000-64255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/64256-64511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/64512-64767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/64768-65023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/65024-65279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Italic/65280-65535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/0-255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/256-511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/512-767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/768-1023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/1024-1279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/1280-1535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/1536-1791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/1792-2047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/2048-2303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/2304-2559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/2560-2815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/2816-3071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/3072-3327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/3328-3583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/3584-3839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/3840-4095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/4096-4351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/4352-4607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/4608-4863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/4864-5119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/5120-5375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/5376-5631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/5632-5887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/5888-6143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/6144-6399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/6400-6655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/6656-6911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/6912-7167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/7168-7423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/7424-7679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/7680-7935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/7936-8191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/8192-8447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/8448-8703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/8704-8959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/8960-9215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/9216-9471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/9472-9727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/9728-9983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/9984-10239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/10240-10495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/10496-10751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/10752-11007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/11008-11263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/11264-11519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/11520-11775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/11776-12031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/12032-12287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/12288-12543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/12544-12799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/12800-13055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/13056-13311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/13312-13567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/13568-13823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/13824-14079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/14080-14335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/14336-14591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/14592-14847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/14848-15103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/15104-15359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/15360-15615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/15616-15871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/15872-16127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/16128-16383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/16384-16639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/16640-16895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/16896-17151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/17152-17407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/17408-17663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/17664-17919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/17920-18175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/18176-18431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/18432-18687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/18688-18943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/18944-19199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/19200-19455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/19456-19711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/19712-19967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/19968-20223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/20224-20479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/20480-20735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/20736-20991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/20992-21247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/21248-21503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/21504-21759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/21760-22015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/22016-22271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/22272-22527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/22528-22783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/22784-23039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/23040-23295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/23296-23551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/23552-23807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/23808-24063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/24064-24319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/24320-24575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/24576-24831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/24832-25087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/25088-25343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/25344-25599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/25600-25855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/25856-26111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/26112-26367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/26368-26623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/26624-26879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/26880-27135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/27136-27391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/27392-27647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/27648-27903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/27904-28159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/28160-28415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/28416-28671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/28672-28927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/28928-29183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/29184-29439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/29440-29695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/29696-29951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/29952-30207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/30208-30463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/30464-30719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/30720-30975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/30976-31231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/31232-31487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/31488-31743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/31744-31999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/32000-32255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/32256-32511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/32512-32767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/32768-33023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/33024-33279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/33280-33535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/33536-33791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/33792-34047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/34048-34303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/34304-34559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/34560-34815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/34816-35071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/35072-35327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/35328-35583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/35584-35839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/35840-36095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/36096-36351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/36352-36607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/36608-36863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/36864-37119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/37120-37375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/37376-37631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/37632-37887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/37888-38143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/38144-38399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/38400-38655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/38656-38911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/38912-39167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/39168-39423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/39424-39679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/39680-39935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/39936-40191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/40192-40447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/40448-40703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/40704-40959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/40960-41215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/41216-41471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/41472-41727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/41728-41983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/41984-42239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/42240-42495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/42496-42751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/42752-43007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/43008-43263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/43264-43519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/43520-43775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/43776-44031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/44032-44287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/44288-44543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/44544-44799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/44800-45055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/45056-45311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/45312-45567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/45568-45823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/45824-46079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/46080-46335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/46336-46591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/46592-46847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/46848-47103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/47104-47359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/47360-47615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/47616-47871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/47872-48127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/48128-48383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/48384-48639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/48640-48895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/48896-49151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/49152-49407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/49408-49663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/49664-49919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/49920-50175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/50176-50431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/50432-50687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/50688-50943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/50944-51199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/51200-51455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/51456-51711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/51712-51967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/51968-52223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/52224-52479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/52480-52735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/52736-52991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/52992-53247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/53248-53503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/53504-53759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/53760-54015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/54016-54271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/54272-54527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/54528-54783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/54784-55039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/55040-55295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/55296-55551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/55552-55807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/55808-56063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/56064-56319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/56320-56575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/56576-56831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/56832-57087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/57088-57343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/57344-57599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/57600-57855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/57856-58111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/58112-58367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/58368-58623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/58624-58879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/58880-59135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/59136-59391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/59392-59647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/59648-59903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/59904-60159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/60160-60415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/60416-60671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/60672-60927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/60928-61183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/61184-61439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/61440-61695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/61696-61951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/61952-62207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/62208-62463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/62464-62719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/62720-62975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/62976-63231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/63232-63487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/63488-63743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/63744-63999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/64000-64255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/64256-64511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/64512-64767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/64768-65023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/65024-65279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Medium/65280-65535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/0-255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/256-511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/512-767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/768-1023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/1024-1279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/1280-1535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/1536-1791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/1792-2047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/2048-2303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/2304-2559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/2560-2815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/2816-3071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/3072-3327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/3328-3583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/3584-3839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/3840-4095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/4096-4351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/4352-4607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/4608-4863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/4864-5119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/5120-5375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/5376-5631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/5632-5887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/5888-6143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/6144-6399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/6400-6655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/6656-6911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/6912-7167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/7168-7423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/7424-7679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/7680-7935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/7936-8191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/8192-8447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/8448-8703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/8704-8959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/8960-9215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/9216-9471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/9472-9727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/9728-9983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/9984-10239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/10240-10495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/10496-10751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/10752-11007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/11008-11263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/11264-11519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/11520-11775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/11776-12031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/12032-12287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/12288-12543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/12544-12799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/12800-13055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/13056-13311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/13312-13567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/13568-13823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/13824-14079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/14080-14335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/14336-14591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/14592-14847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/14848-15103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/15104-15359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/15360-15615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/15616-15871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/15872-16127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/16128-16383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/16384-16639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/16640-16895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/16896-17151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/17152-17407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/17408-17663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/17664-17919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/17920-18175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/18176-18431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/18432-18687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/18688-18943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/18944-19199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/19200-19455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/19456-19711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/19712-19967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/19968-20223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/20224-20479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/20480-20735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/20736-20991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/20992-21247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/21248-21503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/21504-21759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/21760-22015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/22016-22271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/22272-22527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/22528-22783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/22784-23039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/23040-23295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/23296-23551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/23552-23807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/23808-24063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/24064-24319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/24320-24575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/24576-24831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/24832-25087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/25088-25343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/25344-25599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/25600-25855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/25856-26111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/26112-26367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/26368-26623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/26624-26879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/26880-27135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/27136-27391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/27392-27647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/27648-27903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/27904-28159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/28160-28415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/28416-28671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/28672-28927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/28928-29183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/29184-29439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/29440-29695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/29696-29951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/29952-30207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/30208-30463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/30464-30719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/30720-30975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/30976-31231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/31232-31487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/31488-31743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/31744-31999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/32000-32255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/32256-32511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/32512-32767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/32768-33023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/33024-33279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/33280-33535.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/33536-33791.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/33792-34047.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/34048-34303.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/34304-34559.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/34560-34815.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/34816-35071.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/35072-35327.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/35328-35583.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/35584-35839.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/35840-36095.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/36096-36351.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/36352-36607.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/36608-36863.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/36864-37119.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/37120-37375.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/37376-37631.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/37632-37887.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/37888-38143.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/38144-38399.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/38400-38655.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/38656-38911.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/38912-39167.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/39168-39423.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/39424-39679.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/39680-39935.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/39936-40191.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/40192-40447.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/40448-40703.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/40704-40959.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/40960-41215.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/41216-41471.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/41472-41727.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/41728-41983.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/41984-42239.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/42240-42495.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/42496-42751.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/42752-43007.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/43008-43263.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/43264-43519.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/43520-43775.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/43776-44031.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/44032-44287.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/44288-44543.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/44544-44799.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/44800-45055.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/45056-45311.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/45312-45567.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/45568-45823.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/45824-46079.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/46080-46335.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/46336-46591.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/46592-46847.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/46848-47103.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/47104-47359.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/47360-47615.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/47616-47871.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/47872-48127.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/48128-48383.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/48384-48639.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/48640-48895.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/48896-49151.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/49152-49407.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/49408-49663.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/49664-49919.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/49920-50175.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/50176-50431.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/50432-50687.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/50688-50943.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/50944-51199.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/51200-51455.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/51456-51711.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/51712-51967.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/51968-52223.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/52224-52479.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/52480-52735.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/52736-52991.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/52992-53247.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/53248-53503.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/53504-53759.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/53760-54015.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/54016-54271.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/54272-54527.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/54528-54783.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/54784-55039.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/55040-55295.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/55296-55551.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/55552-55807.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/55808-56063.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/56064-56319.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/56320-56575.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/56576-56831.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/56832-57087.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/57088-57343.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/57344-57599.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/57600-57855.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/57856-58111.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/58112-58367.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/58368-58623.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/58624-58879.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/58880-59135.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/59136-59391.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/59392-59647.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/59648-59903.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/59904-60159.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/60160-60415.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/60416-60671.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/60672-60927.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/60928-61183.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/61184-61439.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/61440-61695.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/61696-61951.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/61952-62207.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/62208-62463.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/62464-62719.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/62720-62975.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/62976-63231.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/63232-63487.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/63488-63743.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/63744-63999.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/64000-64255.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/64256-64511.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/64512-64767.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/64768-65023.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/65024-65279.pbf",
+				"Assets/MapAssets/fonts/Noto Sans Regular/65280-65535.pbf",
+				Assets/MapAssets/fonts/OFL.txt,
+				"Assets/MapAssets/osm-liberty/sprites/sprites.json",
+				"Assets/MapAssets/osm-liberty/sprites/sprites.png",
+				"Assets/MapAssets/osm-liberty/sprites/sprites@2x.json",
+				"Assets/MapAssets/osm-liberty/sprites/sprites@2x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@2x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@2x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@3x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@3x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@4x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/basics/sprites@4x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/index.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@2x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@2x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@3x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@3x.png",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@4x.json",
+				"Assets/MapAssets/shortbread-colourful/sprites/markers/sprites@4x.png",
+				"Assets/MapData/georgia-osm.mbtiles",
+				"Assets/MapData/georgia-shortbread.mbtiles",
+				"Assets/MapData/kutaisi-shortbread.mbtiles",
+				"Assets/MapData/paths/001.Gelati-Motsameda.geojson",
+				Assets/MapData/paths/002.SatapliaForest.geojson,
+				"Assets/MapData/paths/003.Sataplia-Kutaisi.geojson",
+				"Licenses and Attributions/Attribution.md",
+				"Licenses and Attributions/OSM-Liberty.md",
+				"Licenses and Attributions/Versatiles-Style.md",
+			);
+			target = C7BE95E12FF674FA00A4FC8D /* 08 - OfflineMaps */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C75E966B300760840003BDFB /* Exceptions for "08 - OfflineMaps" folder in "Compile Sources" phase from "08 - OfflineMaps" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C7BE95DE2FF674FA00A4FC8D /* Sources */;
+			membershipExceptions = (
+				"Licenses and Attributions/OSM-Liberty.md",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C706CBA72F964CBD00357A6A /* 06 - SwiftData Migration */ = {
@@ -300,6 +1375,15 @@
 				C7B864792F7CFFF100B71A6B /* Exceptions for "Packages" folder in "01 - Localization" target */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		C7BE95E32FF674FA00A4FC8D /* 08 - OfflineMaps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C7BE9E0E2FF79D6800A4FC8D /* Exceptions for "08 - OfflineMaps" folder in "08 - OfflineMaps" target */,
+				C75E966B300760840003BDFB /* Exceptions for "08 - OfflineMaps" folder in "Compile Sources" phase from "08 - OfflineMaps" target */,
+			);
+			path = "08 - OfflineMaps";
 			sourceTree = "<group>";
 		};
 		C7C96A912F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels */ = {
@@ -395,6 +1479,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BE95DF2FF674FA00A4FC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BE95F42FF676B700A4FC8D /* MapLibre in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7C96A8D2F7D41C500FB5725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +1552,7 @@
 		C7F54BB72F701E6B00C02C6F = {
 			isa = PBXGroup;
 			children = (
+				C7AB5283300668BA004BF736 /* Assets */,
 				C7B864552F7CFFA600B71A6B /* 01 - Localization */,
 				C7B863722F76A7F900B71A6B /* 02 - DynamicPublisher */,
 				C7C96AB72F7D41CC00FB5725 /* 03 - Testable SwiftUI Views and ViewModels */,
@@ -467,6 +1560,7 @@
 				C733BFCA2F8D2F2000C139BF /* 05 - Background Location */,
 				C706CBCF2F964CC700357A6A /* 06 - SwiftData Migration */,
 				C73F28162FE1A1C900CD5DAD /* 07 - Foundation Model */,
+				C7BE95E32FF674FA00A4FC8D /* 08 - OfflineMaps */,
 				C731A46F2F702A7C00B93DAB /* Frameworks */,
 				C7F54BC12F701E6B00C02C6F /* Products */,
 				C7B864782F7CFFF000B71A6B /* Packages */,
@@ -491,6 +1585,7 @@
 				C73F27EA2FE1A1C100CD5DAD /* 07 - FoundationModel.app */,
 				C73F27FB2FE1A1C200CD5DAD /* 07 - FoundationModelTests.xctest */,
 				C73F28052FE1A1C200CD5DAD /* FoundationModelUITests.xctest */,
+				C7BE95E22FF674FA00A4FC8D /* 08 - OfflineMaps.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -733,6 +1828,29 @@
 			productReference = C7B863712F76A7F900B71A6B /* 02 - DynamicPublisher.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C7BE95E12FF674FA00A4FC8D /* 08 - OfflineMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BE95EC2FF674FB00A4FC8D /* Build configuration list for PBXNativeTarget "08 - OfflineMaps" */;
+			buildPhases = (
+				C7BE95DE2FF674FA00A4FC8D /* Sources */,
+				C7BE95DF2FF674FA00A4FC8D /* Frameworks */,
+				C7BE95E02FF674FA00A4FC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7BE95E32FF674FA00A4FC8D /* 08 - OfflineMaps */,
+			);
+			name = "08 - OfflineMaps";
+			packageProductDependencies = (
+				C7BE95F32FF676B700A4FC8D /* MapLibre */,
+			);
+			productName = OfflineMaps;
+			productReference = C7BE95E22FF674FA00A4FC8D /* 08 - OfflineMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C7C96A8F2F7D41C500FB5725 /* 03 - Testable SwiftUI Views and ViewModels */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7C96AB42F7D41C600FB5725 /* Build configuration list for PBXNativeTarget "03 - Testable SwiftUI Views and ViewModels" */;
@@ -833,7 +1951,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2650;
+				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					C706CBA52F964CBD00357A6A = {
@@ -875,6 +1993,9 @@
 					C7B863702F76A7F900B71A6B = {
 						CreatedOnToolsVersion = 26.4;
 					};
+					C7BE95E12FF674FA00A4FC8D = {
+						CreatedOnToolsVersion = 26.6;
+					};
 					C7C96A8F2F7D41C500FB5725 = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -903,6 +2024,9 @@
 			);
 			mainGroup = C7F54BB72F701E6B00C02C6F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C7BE95F22FF6769200A4FC8D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C7F54BC12F701E6B00C02C6F /* Products */;
 			projectDirPath = "";
@@ -923,6 +2047,7 @@
 				C73F27E92FE1A1C100CD5DAD /* 07 - FoundationModel */,
 				C73F27FA2FE1A1C200CD5DAD /* 07 - FoundationModelTests */,
 				C73F28042FE1A1C200CD5DAD /* FoundationModelUITests */,
+				C7BE95E12FF674FA00A4FC8D /* 08 - OfflineMaps */,
 			);
 		};
 /* End PBXProject section */
@@ -1002,6 +2127,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BE95E02FF674FA00A4FC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AB5284300668BB004BF736 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,6 +2240,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C7B8636D2F76A7F900B71A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BE95DE2FF674FA00A4FC8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1858,6 +2998,77 @@
 			};
 			name = Release;
 		};
+		C7BE95EA2FF674FB00A4FC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = TODO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.OfflineMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7BE95EB2FF674FB00A4FC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = TODO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.OfflineMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		C7C96AAE2F7D41C600FB5725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2322,6 +3533,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C7BE95EC2FF674FB00A4FC8D /* Build configuration list for PBXNativeTarget "08 - OfflineMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BE95EA2FF674FB00A4FC8D /* Debug */,
+				C7BE95EB2FF674FB00A4FC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C7C96AB42F7D41C600FB5725 /* Build configuration list for PBXNativeTarget "03 - Testable SwiftUI Views and ViewModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2369,6 +3589,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C7BE95F22FF6769200A4FC8D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		C7039B052F7D025C00047CF7 /* DynamicPublisher */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -2381,6 +3612,11 @@
 		C731A4722F702A7F00B93DAB /* B */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = B;
+		};
+		C7BE95F32FF676B700A4FC8D /* MapLibre */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7BE95F22FF6769200A4FC8D /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = MapLibre;
 		};
 		C7C96AB82F7D452C00FB5725 /* DynamicPublisher */ = {
 			isa = XCSwiftPackageProductDependency;
